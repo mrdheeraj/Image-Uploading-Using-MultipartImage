@@ -1,7 +1,7 @@
 # Image-Uploading-Using-MultipartImage
 Image-Uploading-Using-MultipartImage-Android
 
-//Add this permission to mainfest
+//Add this permission to manifest
 
     uses-permission android:name="android.permission.INTERNET" 
     uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"
@@ -34,7 +34,7 @@ Image-Uploading-Using-MultipartImage-Android
     }
 
 
-dependencies
+//Add this dependencies
 
     compile files('libs/android-async-http-1.4.4.jar')
     compile files('libs/httpclient-4.3.6.jar')
