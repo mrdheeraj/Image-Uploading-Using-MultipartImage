@@ -1,4 +1,5 @@
-package com.omega.bigdollars.MultipartImageUpload;
+package com.mrdheerajpurohit.MultipartImageUpload;
+
 import java.io.FilterOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
