@@ -33,14 +33,11 @@ Image-Uploading-Using-MultipartImage-Android
         versionName "1.0"
     }
 
+
 dependencies
 
-//android-async-http-1.4.4
     compile files('libs/android-async-http-1.4.4.jar')
-//httpclient-4.3.6.jar
     compile files('libs/httpclient-4.3.6.jar')
-//httpmime-4.3.6
     compile files('libs/httpmime-4.3.6.jar')
-//httpcore-4.3.3
     compile files('libs/httpcore-4.3.3.jar')
 
