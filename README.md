@@ -2,7 +2,7 @@
 Image-Uploading-Using-MultipartImage-Android
 
 //Add this permission to mainfest
-//
+
     uses-permission android:name="android.permission.INTERNET" 
     uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"
     uses-permission android:name="android.permission.ACCESS_WIFI_STATE"
@@ -11,7 +11,7 @@ Image-Uploading-Using-MultipartImage-Android
 
 
 //Add this to you Gradle file.
-//
+
     packagingOptions {
         exclude 'META-INF/DEPENDENCIES.txt'
         exclude 'META-INF/LICENSE.txt'
@@ -33,7 +33,8 @@ Image-Uploading-Using-MultipartImage-Android
         versionName "1.0"
     }
 
-dependencies{
+dependencies
+
 //android-async-http-1.4.4
     compile files('libs/android-async-http-1.4.4.jar')
 //httpclient-4.3.6.jar
@@ -42,4 +43,4 @@ dependencies{
     compile files('libs/httpmime-4.3.6.jar')
 //httpcore-4.3.3
     compile files('libs/httpcore-4.3.3.jar')
-}
+
