@@ -1,14 +1,10 @@
-package com.omega.bigdollars.MultipartImageUpload;
+package com.mrdheerajpurohit.MultipartImageUpload;
 
-import android.content.SharedPreferences;
 /**
  * Dheeraj Purohit Image Upload Using MultipartImage
  */
 
-
 public class Config {
-
-    SharedPreferences sharedPreferences;
 
     // File upload url (replace the ip with your server address)
     public static final String FILE_UPLOAD_URL = " ";
