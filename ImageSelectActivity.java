@@ -1,4 +1,4 @@
-package com.omega.bigdollars.MultipartImageUpload;
+package com.mrdheerajpurohit.MultipartImageUpload;
 
 import android.content.DialogInterface;
 import android.content.Intent;
